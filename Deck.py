@@ -15,7 +15,7 @@ class Deck:
     def __repr__(self):
         retVal = ''
         for card in self.deck:
-            retVal += card
+            retVal += str(card)
         return retVal
 
     def shuffle(self):
